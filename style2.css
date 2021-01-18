@@ -1,0 +1,153 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #efd5ff;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+#page-wrap{
+    width: 800px;
+    margin: 0 auto;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 1rem;;
+}
+header ul li a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+header {
+    padding: 1rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    height: 50px;;
+}
+
+header section {
+    display: inline-block;
+}
+
+#picture-profile img {
+    border-radius: 20px;
+    height: 13rem;
+}
+
+#me{
+    display: flex;
+    display: inline-block;
+    width: 70%;
+    padding-top: 5rem;
+    margin-top: 6rem;
+    line-height: 2rem;
+}
+
+.section-right{
+    display: flex;
+    display: inline-block;
+}
+
+#work h3 {
+    margin-block-start:0;
+}
+
+#academics h3 {
+    margin-block-start:0;
+}
+#work{
+background-color: #FCF8FF;;
+box-shadow: 0px 0px 15px 5px #515ada41;
+border-radius: 2rem;
+padding: 2rem 1rem 2rem 1rem;
+text-align: center;
+line-height: 4rem;
+}
+
+
+#academics{
+    background-color: #FCF8FF;;
+    box-shadow: 0px 0px 15px 5px #515ada41;
+    border-radius: 2rem;
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+#flex-wrap-work-academics {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25rem;
+}
+
+#flex-wrap-skills {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25rem;
+}
+
+#skills {
+    background-color: #FCF8FF;;
+    box-shadow: 0px 0px 15px 5px #515ada41;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#skills li{
+    list-style: "\26A1" ;
+}
+
+#interests {
+    background-color: #FCF8FF;;
+    box-shadow: 0px 0px 15px 5px #515ada41;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#interests li{
+    list-style: "\1F388" ;
+}
+
+#hobbies{
+    background-color: #FCF8FF;;
+    box-shadow: 0px 0px 15px 5px #515ada41;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#hobbies li{
+    list-style: "\1F535";
+}
+
+#contacts{
+    background-color: #FCF8FF;;
+    box-shadow: 0px 0px 15px 5px #515ada41;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 25rem;
+
+}
+
+#contacts li{
+    list-style: none;
+}
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
